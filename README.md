@@ -1,12 +1,12 @@
 cd /home/ubuntu/test/angular8-crud-demo/src/environments
 vi environment.ts
-------------------------------------------
+```
 export const environment = {
   production: false,
   baseUrl: 'https://angular.vvcekarthik.tk'
 
 };
---------------------------------------------
+```
 cd /home/ubuntu/test/angular8-crud-demo
 docker build -t gookarthik/angular-spring-mysql:angualr .
 
